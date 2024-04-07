@@ -3,7 +3,6 @@ import { getVideoAge } from "./getVideoAge.js";
 export function createCard(video, parent) {
   const age = getVideoAge(video.date);
   const truncatedname = `${video.name.substring(0, 32)}...`
-  console.info(typeof video.name)
 
   parent.innerHTML += `
   <div class="video-cardContainer">
