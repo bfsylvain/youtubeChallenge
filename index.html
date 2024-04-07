@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./createCard.js"></script>
+    <script type="module" src="./displayElements.js"></script>
+    <script type="module" src="./filterByName.js"></script>
+    <script type="module" src="./filterByCategory.js"></script>
+    <script type="module" src="./updateFiltersArray.js"></script>
+    <title>I-Tube</title>
+  </head>
+  <body>
+    <nav class="navbar flex-div">
+      <div class="navbar-header">
+        <div class="navbar-left"></div>
+        <div class="navbar-middle flex-div">
+          <div class="search-container flex-div">
+            <input
+              class="search-area"
+              type="text"
+              name="search"
+              id="search-input"
+              placeholder="Rechercher"
+            />
+            <div class="reset-search-btn">X</div>
+            <img class="search-icon" src="./assets/icons/Search.svg" />
+          </div>
+        </div>
+        <div class="navbar-right"></div>
+      </div>
+      <div class="navbar-filter-container"></div>
+    </nav>
+    <main class="main">
+      <div class="cardsList-container"></div>
+    </main>
+  </body>
+</html>

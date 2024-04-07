@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.flex-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected {
+    background-color: black;
+    color: #fff;
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px 2%;
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-header {
+    width: 75%;
+}
+
+.navbar-middle .search-container {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 25px;
+    width: 75%;
+    max-width: 567px;
+}
+
+.navbar-middle .search-area {
+    width: 600px;
+    height: 20px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+
+}
+.navbar-middle .search-icon{
+    width: 16px;
+}
+
+.navbar-middle .reset-search-btn {
+    padding-right: 12px;
+    color: gray;
+}
+
+.navbar-middle .reset-search-btn:hover{
+    cursor: pointer;
+}
+
+.navbar-filter-container {
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.navbar-filter-container .filter-button {
+    border: none;
+    padding: 0.5em 2em;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.filter-button label {
+    display: inline-block;
+}
+.cardsList-container {
+    margin-top: 116px;
+    padding: 0 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.video-cardContainer {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+.video-cardContainer .card-informations {
+    display: flex;
+}
+
+.card-informations .card-info-main {
+    font-size: 14px;
+}
+.card-title-header {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.card-info-logo img {
+    width: 40px;
+    margin-top: 12px;
+    margin-right: 12px;
+    border-radius: 50%;
+}

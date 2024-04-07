@@ -1,0 +1,90 @@
+{
+  "videos": [
+    {
+      "name": "Le retour d'Expandora, une fuzz à lampe et un coffee shop sur ton pedalboard...",
+      "videoUrl":"https://www.youtube.com/watch?v=_pfrI9Wq7Jo&t=2470s&pp=ygUOZXhwZW5kb3JhIHBhbGY%3D",
+      "image": "https://i.ytimg.com/vi/_pfrI9Wq7Jo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCAlfzV24BPeP6n8ShhfcxFnQVssg",
+      "channel":"Palf",
+      "channelUrl":"https://www.youtube.com/@Palf",
+      "category": [
+        "musique",
+        "divertissement"
+      ],
+      "date":"04/06/2024",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_nG0DrPyk_fBnTX-eIm-cQ5rm4BZhCsorQ6g-TPFJdaUg=s68-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "name": "Ce film est le AMERICAN HISTORY X français",
+      "videoUrl":"https://www.youtube.com/watch?v=6_HtDHV0Z3Q&t=178s&pp=ygUbYW1lcmljYW4gaGlzdG9yeSB4IGZyYW5jYWlz",
+      "image": "https://i.ytimg.com/vi/6_HtDHV0Z3Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-Izy1k38SnT7CREmEokQeSE0c0Q",
+      "channel":"Intercut",
+      "channelUrl": "https://www.youtube.com/@Intercut",
+      "category": [
+        "cinéma",
+        "divertissement"
+      ],
+      "date":"03/31/2024",
+      "logo": "https://yt3.ggpht.com/NDyOoY2Qzuc-LEuh9H6DNCe14eNvun-3xkeVHglLsd-pnFPJTENeWPdoD_tnpUD6UCXT2SPA=s68-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "name": "TITANIC : Les secrets de la 1ere classe",
+      "videoUrl":"https://www.youtube.com/watch?v=H9avG2M0IdQ&t=230s&pp=ygUpdGl0YW5pYyBsZXMgc2VjcmV0cyBkZSBsYSBwcmVtaWVyZSBjbGFzc2U%3D",
+      "image": "https://i.ytimg.com/vi/H9avG2M0IdQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDiUbp0lOC-Yqkm9_0CmfQ9HItrrQ",
+      "channel":"Le stryge",
+      "channelUrl":"https://www.youtube.com/@lestryge",
+      "category": [
+        "divertissement",
+        "histoire"
+      ],
+      "date":"12/31/2023",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_kwIrO_98pZZj8vE0XYaa8gODJV4YALqTDd6h5yDGGJnw=s68-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "name": "La grande histoire de la fuzz #6 : Quand BIG MUFF met fin à la guerre froide + Anasounds Full Story de Palf",
+      "videoUrl":"https://www.youtube.com/watch?v=4cmtjJfjISM&t=658s&pp=ygUmbGEgZ3JhbmRlIGhpc3RvaXJlIGRlIGxhIGZ1enogYmlnIG11ZmY%3D",
+      "image": "https://i.ytimg.com/vi/4cmtjJfjISM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBiTJS0_amCsUmd2wbQ-ipBfoOGsg",
+      "channel":"Palf",
+      "channelUrl":"https://www.youtube.com/@Palf",
+      "category": [
+        "musique",
+        "histoire"
+      ],
+      "date":"03/22/2024",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_nG0DrPyk_fBnTX-eIm-cQ5rm4BZhCsorQ6g-TPFJdaUg=s68-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "name": "Les trésors cachés de l'horreur",
+      "videoUrl":"https://www.youtube.com/watch?v=zt57fK9Jkxc&pp=ygUfbGVzIHRyZXNvcnMgY2FjaGVzIGRlIGwnaG9vcmV1cg%3D%3D",
+      "image": "https://i.ytimg.com/vi/zt57fK9Jkxc/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBpJhKeqe2BlbxauRBvE1hqi2TOrw",
+      "channel":"Intercut",
+      "channelUrl": "https://www.youtube.com/@Intercut",
+      "category": [
+        "cinéma",
+        "histoire"
+      ],
+      "date":"08/28/1984",
+      "logo": "https://yt3.ggpht.com/NDyOoY2Qzuc-LEuh9H6DNCe14eNvun-3xkeVHglLsd-pnFPJTENeWPdoD_tnpUD6UCXT2SPA=s68-c-k-c0x00ffffff-no-rj"
+
+    },
+    {
+      "name": "Minute Papillon #47 Rien (feat Personne)",
+      "videoUrl":"https://www.youtube.com/watch?v=zyLmMHVUHbE&pp=ygUUbWludXRlIHBhcGlsbG9uIHJpZW4%3D",
+      "image": "https://i.ytimg.com/vi/zyLmMHVUHbE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDYz42PejKWzNmGTMSjeQqAUwKN7A",
+      "channel":"Minute papillon",
+      "channelUrl":"https://www.youtube.com/@KrissPapillon",
+      "category": [
+        "divertissement"
+      ],
+      "date":"03/19/1985",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lYH7JqnQY2AQyEx-79lzwdMUzhpxmVb1s2NbMopBD324U=s68-c-k-c0x00ffffff-no-rj"
+    }
+  ],
+
+
+  "filters": [
+    "musique",
+    "cinéma",
+    "histoire",
+    "divertissement"
+  ]
+}
