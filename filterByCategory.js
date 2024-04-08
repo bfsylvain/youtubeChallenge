@@ -5,11 +5,11 @@ export function filterByCategory(videoList, filters, cardContainer) {
         displayElement(videoList, cardContainer)
         return videoList
     } else {
-        const videoListFiltered = videoList.filter((listElement) =>
+        const filteredByCatVideos = videoList.filter((listElement) =>
             filters.every(f => listElement.category.includes(f))
         );
-        displayElement(videoListFiltered, cardContainer)
-        return videoListFiltered;
+        displayElement(filteredByCatVideos, cardContainer)
+        return filteredByCatVideos;
     }
   }
 

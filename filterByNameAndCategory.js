@@ -1,6 +1,6 @@
 import { filterByCategory } from "./filterByCategory.js";
 
-export function filterByName(string, videoList, cardContainer, selectedFilters) {
+export function filterByNameAndCategory(string, videoList, cardContainer, selectedFilters) {
     const filteredByNameVideos = videoList.filter((el) =>
         el.name
         .toLowerCase()
