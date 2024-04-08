@@ -1,9 +1,9 @@
-import { filterByNameAndCategory } from "./filterByNameAndCategory.js";
-import { displayElements } from "./displayElements.js";
+import { filterByNameAndCategory } from "./filterFunctions/filterByNameAndCategory.js";
+import { displayVideos } from "./displayElementsFunctions/displayVideos.js";
 import { updateFiltersArray } from "./updateFiltersArray.js";
 import { fetchData } from "./fetchData.js";
-import { displayFilters } from "./displayFilters.js";
-import { setFiltersAndVideoCards } from "./setFiltersAndVideoCards.js";
+import { displayFilters } from "./displayElementsFunctions/displayFilters.js";
+//import { setFiltersAndVideos } from "./setFiltersAndVideos.js";
 
 async function main() {
   const cardContainer = document.querySelector(".cardsList-container");
@@ -15,7 +15,7 @@ let filterList = [];
 let selectedFilters = [];
 let searchedValue = "";
 
-async function setFiltersAndVideoCards() {
+async function setFiltersAndVideos() {
   searchInput.value = "";
   const data = await fetchData();
   filterList = data.filters;
@@ -60,8 +60,9 @@ resetSearchButton.addEventListener("click", () => {
   );
 });
 
-await setFiltersAndVideoCards(filterList, videoList, searchInput);
-await displayElements(videoList, cardContainer);
+// await setFiltersAndVideos(filterList, videoList, searchInput);
+await setFiltersAndVideos();
+await displayVideos(videoList, cardContainer);
 await displayFilters(filterList, filterContainer)
 await setFiltersFunctions()
 }

@@ -1,6 +1,6 @@
 import { fetchData } from "./fetchData.js";
 
-export async function setFiltersAndVideoCards(filterList, videoList, searchInput) {
+export async function setFiltersAndVideos(filterList, videoList, searchInput) {
     searchInput.value = "";
     const data = await fetchData();
     filterList = data.filters;

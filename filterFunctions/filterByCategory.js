@@ -1,14 +1,14 @@
-import { displayElements } from "./displayElements.js";
+import { displayVideos } from "../displayElementsFunctions/displayVideos.js";
 
 export function filterByCategory(videoList, filters, cardContainer) {
     if(filters.length === 0) {
-        displayElements(videoList, cardContainer)
+        displayVideos(videoList, cardContainer)
         return videoList
     } else {
         const filteredByCatVideos = videoList.filter((listElement) =>
             filters.every(f => listElement.category.includes(f))
         );
-        displayElements(filteredByCatVideos, cardContainer)
+        displayVideos(filteredByCatVideos, cardContainer)
         return filteredByCatVideos;
     }
   }

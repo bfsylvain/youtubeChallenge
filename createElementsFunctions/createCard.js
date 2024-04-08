@@ -1,4 +1,4 @@
-import { getVideoAge } from "./utils/getVideoAge.js";
+import { getVideoAge } from "../utils/getVideoAge.js";
 
 export function createCard(video, parent) {
   const age = getVideoAge(video.date);
