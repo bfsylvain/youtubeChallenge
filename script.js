@@ -3,7 +3,7 @@ import { displayVideos } from "./displayElementsFunctions/displayVideos.js";
 import { updateFiltersArray } from "./updateFiltersArray.js";
 import { fetchData } from "./fetchData.js";
 import { displayFilters } from "./displayElementsFunctions/displayFilters.js";
-//import { setFiltersAndVideos } from "./setFiltersAndVideos.js";
+import { setFiltersAndVideos } from "./setFiltersAndVideos.js";
 
 async function main() {
   const cardContainer = document.querySelector(".cardsList-container");
@@ -14,13 +14,6 @@ let videoList = [];
 let filterList = [];
 let selectedFilters = [];
 let searchedValue = "";
-
-async function setFiltersAndVideos() {
-  searchInput.value = "";
-  const data = await fetchData();
-  filterList = data.filters;
-  videoList = data.videos;
-};
 
 async function setFiltersFunctions() {
   const filterButtonList = document.querySelectorAll(".filter-button");
@@ -60,8 +53,9 @@ resetSearchButton.addEventListener("click", () => {
   );
 });
 
-// await setFiltersAndVideos(filterList, videoList, searchInput);
-await setFiltersAndVideos();
+const result = await setFiltersAndVideos(filterList, videoList, searchInput);
+filterList = result.filters;
+videoList = result.videos;
 await displayVideos(videoList, cardContainer);
 await displayFilters(filterList, filterContainer)
 await setFiltersFunctions()
