@@ -1,8 +1,10 @@
 import { filterByNameAndCategory } from "./filterByNameAndCategory.js";
 import { displayElements } from "./displayElements.js";
 import { updateFiltersArray } from "./updateFiltersArray.js";
-import { createFilter } from "./createFilter.js";
 import { fetchData } from "./fetchData.js";
+import { displayFilters } from "./displayFilters.js";
+import { setFiltersAndVideoCards } from "./setFiltersAndVideoCards.js";
+
 async function main() {
   const cardContainer = document.querySelector(".cardsList-container");
 const filterContainer = document.querySelector(".navbar-filter-container");
@@ -13,20 +15,15 @@ let filterList = [];
 let selectedFilters = [];
 let searchedValue = "";
 
-const mainPageInitialization = async function () {
+async function setFiltersAndVideoCards() {
   searchInput.value = "";
-
   const data = await fetchData();
-
   filterList = data.filters;
   videoList = data.videos;
-  displayElements(videoList, cardContainer);
+};
 
-  for (let filter of filterList) {
-    createFilter(filter, filterContainer);
-  }
+async function setFiltersFunctions() {
   const filterButtonList = document.querySelectorAll(".filter-button");
-
   filterButtonList.forEach((el) =>
     el.addEventListener("click", () => {
       el.classList.toggle("selected");
@@ -38,9 +35,8 @@ const mainPageInitialization = async function () {
         selectedFilters
       );
     })
-  );
-};
-mainPageInitialization();
+  );  
+}
 
 searchInput.addEventListener("input", (e) => {
   searchedValue = e.target.value;
@@ -63,5 +59,11 @@ resetSearchButton.addEventListener("click", () => {
     selectedFilters
   );
 });
+
+await setFiltersAndVideoCards(filterList, videoList, searchInput);
+await displayElements(videoList, cardContainer);
+await displayFilters(filterList, filterContainer)
+await setFiltersFunctions()
 }
+
 main()
