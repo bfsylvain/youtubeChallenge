@@ -1,10 +1,10 @@
 import { filterByNameAndCategory } from "./filterByNameAndCategory.js";
-import { displayElement } from "./displayElements.js";
+import { displayElements } from "./displayElements.js";
 import { updateFiltersArray } from "./updateFiltersArray.js";
 import { createFilter } from "./createFilter.js";
 import { fetchData } from "./fetchData.js";
-
-const cardContainer = document.querySelector(".cardsList-container");
+async function main() {
+  const cardContainer = document.querySelector(".cardsList-container");
 const filterContainer = document.querySelector(".navbar-filter-container");
 const searchInput = document.querySelector("#search-input");
 const resetSearchButton = document.querySelector(".reset-search-btn");
@@ -20,7 +20,7 @@ const mainPageInitialization = async function () {
 
   filterList = data.filters;
   videoList = data.videos;
-  displayElement(videoList, cardContainer);
+  displayElements(videoList, cardContainer);
 
   for (let filter of filterList) {
     createFilter(filter, filterContainer);
@@ -63,3 +63,5 @@ resetSearchButton.addEventListener("click", () => {
     selectedFilters
   );
 });
+}
+main()

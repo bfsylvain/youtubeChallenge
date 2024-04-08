@@ -84,6 +84,7 @@ a{
 .filter-button label {
     display: inline-block;
 }
+
 .cardsList-container {
     margin-top: 116px;
     padding: 0 200px;
@@ -91,6 +92,10 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+}
+
+.empty-card {
+    height: 100vh;
 }
 .video-cardContainer {
     width: 300px;
